@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<mp3player>
+
+<!-- ============================= -->
+
+<!-- Set the player settings below -->
+
+<!-- ============================= -->
+
+        <options>
+
+
+
+                <defaultVolume>40</defaultVolume>                <!-- Between 0 - 100 -->
+
+                <playerWidth>210</playerWidth>                   <!-- In pixels -->
+
+                <thumbnailsDisplay>On</thumbnailsDisplay>        <!-- On/Off - if off it will hide the thumbnails -->
+
+                <startSong>1</startSong>                         <!-- Song Number -->
+
+                <autoPlayOnStart>Off</autoPlayOnStart>            <!-- On/Off - if Off the player will not play automatically but will wait youto press the play button-->
+
+                <autoLoopMode>Off</autoLoopMode>                 <!-- On/Off - if On then when the current song finish, the next song will start play automatically -->
+
+                <repeatMode>All</repeatMode>                     <!-- Single/All - if Single and autoLoopMode is On then will loop the song defined in startSong -->
+
+                <shuffleMode>On</shuffleMode>                    <!-- On/Off - if On then the player will play the songs randomly -->
+
+                <randomPlayOnStart>On</randomPlayOnStart>        <!-- On/Off - if On then evry time when the player is loaded it will pick the first song randomly/startSong option will be overwrite -->
+
+                <buyLinkDisplay>Off</buyLinkDisplay>             <!-- On/Off - show/hide the BUY link -->
+
+                <playlistButtonDisplay>Off</playlistButtonDisplay>  <!-- On/Off - show/hide the playlist button -->
+
+                <playerMode>Playlist</playerMode>                      <!-- Pill/Compact/Full/Playlist - defines which mode will be the default initial mode for the player -->
+
+                <bgColor>0xc4b470</bgColor>                        <!-- Color of stage background -->
+
+                <playerColor>0x#9966FF</playerColor>
+
+                <playerOpacity>0</playerOpacity>
+
+                <playerGlossy>20</playerGlossy>
+
+                <controlsColor>0x9966FF</controlsColor>
+
+                <controlsOpacity>70</controlsOpacity>
+
+                <controlsColorOver>0x9966FF</controlsColorOver>
+
+                <controlsOpacityOver>100</controlsOpacityOver>
+
+                <glossyOpacity>0</glossyOpacity>
+
+                <playListPosition>Below</playListPosition>      <!-- Below/Above -->
+
+                <playListHeight>70</playListHeight>
+
+                <boxesOpacity>5</boxesOpacity>
+
+                <boxesOpacityOver>20</boxesOpacityOver>
+
+                <boxesColor>0xc4b470</boxesColor>
+
+                <boxesColorOver>0xc4b470</boxesColorOver>
+
+                <buyAlpha>10</buyAlpha>
+
+                <buyAlphaOver>50</buyAlphaOver>
+
+                <buyColor>0xc4b470</buyColor>
+
+                <buyColorOver>0xc4b470</buyColorOver>
+
+                <ease_speed>10</ease_speed>
+
+        </options>
+
+<!-- ============================= -->
+
+<!-- End of the player settings    -->
+
+<!-- ============================= -->
+
+
+
+<!-- ============================= -->
+
+<!-- Define the PLAYLIST           -->
+
+<!-- ============================= -->
+
+
+
+                 <song>
+
+                        <title>SONG TITLE HERE</title>
+
+                        <artist>SONG ARTIST</artist>
+
+                        <filename>songs/Radioactive.mp3</filename>
+
+                        <songimage>http://www.YOURSITE.com/song-avatar/dragons.jpg</songimage> 
+
+                </song>
+
+                
+
+                
+
+                
+
+                <song>
+
+                        <title>SONG TITLE HERE</title>
+
+                        <artist>SONG ARTIST</artist>
+
+                        <filename>songs/FILE_NAME_HERE.mp3</filename>
+
+                        <songimage>http://www.YOURSITE.com/song-avatar/metalica.jpg</songimage> 
+
+                </song>
+
+                
+
+
+
+
+
+
+
+		 								   
+
+</mp3player>
+
+
+

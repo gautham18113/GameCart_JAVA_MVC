@@ -1,0 +1,48 @@
+﻿/* Forms styles */
+label {
+}
+input[type=text], select, textarea {
+	background-position: center top;
+	border: none;
+	color: #B895FF;
+	background-image: url('../theme/text-area-filler.jpg');
+	background-repeat: repeat-x;
+	border: 1px solid #9900FF;
+	font-family: 'Aldrich', sans-serif;
+	font-size: 100%;
+}
+select {
+	width: 190px;
+}
+textarea {
+	background-position: center top;
+	padding: 0px;
+	border: 1px solid #9900FF;
+	color: #B895FF;
+	background-image: url('../theme/text-area-filler-2.jpg');
+	background-repeat: repeat-x;
+	font-family: 'Aldrich', sans-serif;
+	font-size: 100%;
+}
+input:hover, select:hover, textarea:hover {
+	-moz-box-shadow: 0px 0px 3px #02cde8;
+	-webkit-box-shadow: 0px 0px 3px #02cde8;
+	box-shadow: 0px 0px 3px #02cde8;
+}
+input:focus, select:focus, textarea:focus {
+	-moz-box-shadow: 0px 0px 6px #02cde8;
+	-webkit-box-shadow: 0px 0px 6px #02cde8;
+	box-shadow: 0px 0px 6px #02cde8;
+}
+.error {
+	color: red;
+}
+form button {
+	background-color: #320063;
+	font-size: 100%;
+	color: #9966FF;
+	font-weight: normal;
+	text-align: center;
+	position: relative;
+	font-family: 'Aldrich', sans-serif;
+}
